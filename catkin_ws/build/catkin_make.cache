@@ -1,0 +1,2 @@
+ssc
+-DCATKIN_DEVEL_PREFIX=/home/kratos/OFRN/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kratos/OFRN/catkin_ws/install -G Unix Makefiles
