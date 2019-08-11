@@ -126,6 +126,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/kratos/OFRN/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/kratos/OFRN/catkin_ws/build/automotive_autonomy_msgs/cmake_install.cmake")
+  include("/home/kratos/OFRN/catkin_ws/build/automotive_platform_msgs/cmake_install.cmake")
+  include("/home/kratos/OFRN/catkin_ws/build/automotive_navigation_msgs/cmake_install.cmake")
+  include("/home/kratos/OFRN/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
   include("/home/kratos/OFRN/catkin_ws/build/ssc/cmake_install.cmake")
 
 endif()

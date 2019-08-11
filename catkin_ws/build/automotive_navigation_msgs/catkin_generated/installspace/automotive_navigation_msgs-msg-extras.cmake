@@ -1,0 +1,2 @@
+set(automotive_navigation_msgs_MESSAGE_FILES "msg/CommandWithHandshake.msg;msg/DesiredDestination.msg;msg/Direction.msg;msg/DistanceToDestination.msg;msg/LaneBoundary.msg;msg/LaneBoundaryArray.msg;msg/ModuleState.msg;msg/PointOfInterestArray.msg;msg/PointOfInterest.msg;msg/PointOfInterestRequest.msg;msg/PointOfInterestResponse.msg;msg/PointOfInterestStatus.msg;msg/RoadNetworkBoundaries.msg")
+set(automotive_navigation_msgs_SERVICE_FILES "srv/GetImageForMapTile.srv")

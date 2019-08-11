@@ -1,0 +1,8 @@
+prefix=/home/kratos/OFRN/catkin_ws/install
+
+Name: automotive_navigation_msgs
+Description: Description of automotive_navigation_msgs
+Version: 2.0.3
+Cflags: -I/home/kratos/OFRN/catkin_ws/install/include
+Libs: -L/home/kratos/OFRN/catkin_ws/install/lib 
+Requires: message_runtime std_msgs geometry_msgs

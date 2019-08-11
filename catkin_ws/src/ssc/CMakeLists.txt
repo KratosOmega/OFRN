@@ -11,6 +11,9 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  #------------------------- additional package
+  automotive_navigation_msgs
+  automotive_platform_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -204,3 +207,24 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+
+# ---------------------------------------------------------------------- additional setup
+##########################
+## c++ file compilation ##
+##########################
+add_executable(ssc_interface_node src/ssc_interface_node.cpp)
+target_link_libraries(ssc_interface_node ${catkin_LIBRARIES})
+add_dependencies(ssc_interface_node ssc_generate_messages_cpp)
+
+add_executable(ssc_interface src/ssc_interface.cpp)
+target_link_libraries(ssc_interface ${catkin_LIBRARIES})
+add_dependencies(ssc_interface ssc_generate_messages_cpp)
+
+# ----------------------------------------------------------------------
+
+##############################################################
+## build c++ file depends before any targets that need them ##
+##############################################################
+add_dependencies(ssc_interface ${catkin_EXPORTED_TARGETS})
+add_dependencies(ssc_interface_node ${catkin_EXPORTED_TARGETS})

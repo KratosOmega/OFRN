@@ -262,11 +262,62 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//Value Computed by CMake
+automotive_autonomy_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/automotive_autonomy_msgs
+
+//Value Computed by CMake
+automotive_autonomy_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/automotive_autonomy_msgs
+
+//Value Computed by CMake
+automotive_navigation_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/automotive_navigation_msgs
+
+//The directory containing a CMake configuration file for automotive_navigation_msgs.
+automotive_navigation_msgs_DIR:PATH=/home/kratos/OFRN/catkin_ws/devel/share/automotive_navigation_msgs/cmake
+
+//Value Computed by CMake
+automotive_navigation_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/automotive_navigation_msgs
+
+//Value Computed by CMake
+automotive_platform_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/automotive_platform_msgs
+
+//The directory containing a CMake configuration file for automotive_platform_msgs.
+automotive_platform_msgs_DIR:PATH=/home/kratos/OFRN/catkin_ws/devel/share/automotive_platform_msgs/cmake
+
+//Value Computed by CMake
+automotive_platform_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/automotive_platform_msgs
+
+//Value Computed by CMake
+beginner_tutorials_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/beginner_tutorials
+
+//Value Computed by CMake
+beginner_tutorials_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/beginner_tutorials
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/kinetic/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/kinetic/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/kinetic/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/kinetic/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for gennodejs.
+gennodejs_DIR:PATH=/opt/ros/kinetic/share/gennodejs/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/kinetic/share/genpy/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/gtest
@@ -310,6 +361,9 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
+
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
@@ -449,7 +503,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

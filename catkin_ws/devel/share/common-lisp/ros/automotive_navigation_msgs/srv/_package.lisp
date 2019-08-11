@@ -1,0 +1,10 @@
+(cl:defpackage automotive_navigation_msgs-srv
+  (:use )
+  (:export
+   "GETIMAGEFORMAPTILE"
+   "<GETIMAGEFORMAPTILE-REQUEST>"
+   "GETIMAGEFORMAPTILE-REQUEST"
+   "<GETIMAGEFORMAPTILE-RESPONSE>"
+   "GETIMAGEFORMAPTILE-RESPONSE"
+  ))
+
