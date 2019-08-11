@@ -1,0 +1,12 @@
+(cl:in-package delphi_mrr_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          YAWRATEREFERENCEVALID-VAL
+          YAWRATEREFERENCEVALID
+          YAWRATEREFERENCE-VAL
+          YAWRATEREFERENCE
+          CANVEHLONGACCELQF-VAL
+          CANVEHLONGACCELQF
+          CANVEHLONGACCEL-VAL
+          CANVEHLONGACCEL
+))

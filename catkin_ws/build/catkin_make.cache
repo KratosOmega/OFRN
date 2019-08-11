@@ -1,2 +1,2 @@
-automotive_autonomy_msgs:automotive_navigation_msgs:automotive_platform_msgs:beginner_tutorials:ssc
+astuff_sensor_msgs:automotive_autonomy_msgs:automotive_navigation_msgs:automotive_platform_msgs:autoware_msgs:beginner_tutorials:jsk_footstep_msgs:jsk_recognition_msgs:pacmod_msgs:ssc
 -DCATKIN_DEVEL_PREFIX=/home/kratos/OFRN/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kratos/OFRN/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/kratos/OFRN/catkin_ws/install
+
+Name: neobotix_usboard_msgs
+Description: Description of neobotix_usboard_msgs
+Version: 2.3.1
+Cflags: -I/home/kratos/OFRN/catkin_ws/install/include
+Libs: -L/home/kratos/OFRN/catkin_ws/install/lib 
+Requires: message_runtime std_msgs

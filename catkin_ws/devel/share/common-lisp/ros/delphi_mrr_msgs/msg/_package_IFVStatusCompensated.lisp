@@ -1,0 +1,14 @@
+(cl:in-package delphi_mrr_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          CANYAWRATECALCQF-VAL
+          CANYAWRATECALCQF
+          CANYAWRATECALC-VAL
+          CANYAWRATECALC
+          CANYAWRATEBIAS-VAL
+          CANYAWRATEBIAS
+          CANVEHICLESPEEDCALC-VAL
+          CANVEHICLESPEEDCALC
+          CANVEHSPDCOMPFACTOR-VAL
+          CANVEHSPDCOMPFACTOR
+))

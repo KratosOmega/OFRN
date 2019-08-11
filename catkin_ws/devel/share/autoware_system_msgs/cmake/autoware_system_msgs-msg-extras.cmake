@@ -1,0 +1,2 @@
+set(autoware_system_msgs_MESSAGE_FILES "/home/kratos/OFRN/catkin_ws/src/autoware_system_msgs/msg/DiagnosticStatus.msg;/home/kratos/OFRN/catkin_ws/src/autoware_system_msgs/msg/DiagnosticStatusArray.msg;/home/kratos/OFRN/catkin_ws/src/autoware_system_msgs/msg/SystemStatus.msg;/home/kratos/OFRN/catkin_ws/src/autoware_system_msgs/msg/NodeStatus.msg;/home/kratos/OFRN/catkin_ws/src/autoware_system_msgs/msg/HardwareStatus.msg")
+set(autoware_system_msgs_SERVICE_FILES "")

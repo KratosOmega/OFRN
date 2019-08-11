@@ -1,0 +1,8 @@
+prefix=/home/kratos/OFRN/catkin_ws/devel
+
+Name: autoware_external_msgs
+Description: Description of autoware_external_msgs
+Version: 1.12.0
+Cflags: 
+Libs: -L/home/kratos/OFRN/catkin_ws/devel/lib 
+Requires: 

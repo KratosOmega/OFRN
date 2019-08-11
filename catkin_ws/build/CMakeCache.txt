@@ -262,6 +262,15 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/kinetic/share/actionlib_msgs/cmake
+
+//Value Computed by CMake
+astuff_sensor_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/astuff_sensor_msgs
+
+//Value Computed by CMake
+astuff_sensor_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/astuff_sensor_msgs
+
 //Value Computed by CMake
 automotive_autonomy_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/automotive_autonomy_msgs
 
@@ -287,6 +296,45 @@ automotive_platform_msgs_DIR:PATH=/home/kratos/OFRN/catkin_ws/devel/share/automo
 automotive_platform_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/automotive_platform_msgs
 
 //Value Computed by CMake
+autoware_can_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/autoware_can_msgs
+
+//Value Computed by CMake
+autoware_can_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/autoware_can_msgs
+
+//Value Computed by CMake
+autoware_config_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/autoware_config_msgs
+
+//Value Computed by CMake
+autoware_config_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/autoware_config_msgs
+
+//Value Computed by CMake
+autoware_external_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/autoware_external_msgs
+
+//Value Computed by CMake
+autoware_external_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/autoware_external_msgs
+
+//Value Computed by CMake
+autoware_map_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/autoware_map_msgs
+
+//Value Computed by CMake
+autoware_map_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/autoware_map_msgs
+
+//Value Computed by CMake
+autoware_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/autoware_msgs
+
+//The directory containing a CMake configuration file for autoware_msgs.
+autoware_msgs_DIR:PATH=/home/kratos/OFRN/catkin_ws/devel/share/autoware_msgs/cmake
+
+//Value Computed by CMake
+autoware_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/autoware_msgs
+
+//Value Computed by CMake
+autoware_system_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/autoware_system_msgs
+
+//Value Computed by CMake
+autoware_system_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/autoware_system_msgs
+
+//Value Computed by CMake
 beginner_tutorials_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/beginner_tutorials
 
 //Value Computed by CMake
@@ -297,6 +345,30 @@ catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
+
+//Value Computed by CMake
+delphi_esr_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/delphi_esr_msgs
+
+//Value Computed by CMake
+delphi_esr_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/delphi_esr_msgs
+
+//Value Computed by CMake
+delphi_mrr_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/delphi_mrr_msgs
+
+//Value Computed by CMake
+delphi_mrr_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/delphi_mrr_msgs
+
+//Value Computed by CMake
+delphi_srr_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/delphi_srr_msgs
+
+//Value Computed by CMake
+delphi_srr_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/delphi_srr_msgs
+
+//Value Computed by CMake
+derived_object_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/derived_object_msgs
+
+//Value Computed by CMake
+derived_object_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/derived_object_msgs
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/kinetic/share/gencpp/cmake
@@ -359,6 +431,36 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+ibeo_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/ibeo_msgs
+
+//Value Computed by CMake
+ibeo_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/ibeo_msgs
+
+//Value Computed by CMake
+jsk_footstep_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/jsk_footstep_msgs
+
+//The directory containing a CMake configuration file for jsk_footstep_msgs.
+jsk_footstep_msgs_DIR:PATH=/home/kratos/OFRN/catkin_ws/devel/share/jsk_footstep_msgs/cmake
+
+//Value Computed by CMake
+jsk_footstep_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/jsk_footstep_msgs
+
+//Value Computed by CMake
+jsk_recognition_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/jsk_recognition_msgs
+
+//The directory containing a CMake configuration file for jsk_recognition_msgs.
+jsk_recognition_msgs_DIR:PATH=/home/kratos/OFRN/catkin_ws/devel/share/jsk_recognition_msgs/cmake
+
+//Value Computed by CMake
+jsk_recognition_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/jsk_recognition_msgs
+
+//Value Computed by CMake
+kartech_linear_actuator_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/kartech_linear_actuator_msgs
+
+//Value Computed by CMake
+kartech_linear_actuator_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/kartech_linear_actuator_msgs
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
@@ -367,6 +469,39 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
+
+//Value Computed by CMake
+mobileye_560_660_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/mobileye_560_660_msgs
+
+//Value Computed by CMake
+mobileye_560_660_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/mobileye_560_660_msgs
+
+//Value Computed by CMake
+neobotix_usboard_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/neobotix_usboard_msgs
+
+//Value Computed by CMake
+neobotix_usboard_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/neobotix_usboard_msgs
+
+//Value Computed by CMake
+pacmod_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/pacmod_msgs
+
+//The directory containing a CMake configuration file for pacmod_msgs.
+pacmod_msgs_DIR:PATH=/home/kratos/OFRN/catkin_ws/devel/share/pacmod_msgs/cmake
+
+//Value Computed by CMake
+pacmod_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/pacmod_msgs
+
+//The directory containing a CMake configuration file for pcl_msgs.
+pcl_msgs_DIR:PATH=/opt/ros/kinetic/share/pcl_msgs/cmake
+
+//Value Computed by CMake
+radar_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/radar_msgs
+
+//The directory containing a CMake configuration file for radar_msgs.
+radar_msgs_DIR:PATH=/home/kratos/OFRN/catkin_ws/devel/share/radar_msgs/cmake
+
+//Value Computed by CMake
+radar_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/radar_msgs
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
@@ -389,6 +524,12 @@ rospy_DIR:PATH=/opt/ros/kinetic/share/rospy/cmake
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
+
+//The directory containing a CMake configuration file for shape_msgs.
+shape_msgs_DIR:PATH=/opt/ros/kinetic/share/shape_msgs/cmake
+
 //Value Computed by CMake
 ssc_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/ssc
 
@@ -397,6 +538,18 @@ ssc_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/ssc
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
+
+//Value Computed by CMake
+tablet_socket_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/tablet_socket_msgs
+
+//Value Computed by CMake
+tablet_socket_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/tablet_socket_msgs
+
+//Value Computed by CMake
+vector_map_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/vector_map_msgs
+
+//Value Computed by CMake
+vector_map_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/vector_map_msgs
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
@@ -503,7 +656,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

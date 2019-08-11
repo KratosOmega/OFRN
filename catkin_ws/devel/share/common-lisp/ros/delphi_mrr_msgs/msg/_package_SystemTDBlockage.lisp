@@ -1,0 +1,14 @@
+(cl:in-package delphi_mrr_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          CANNUMBEROFTRACKSSTAT-VAL
+          CANNUMBEROFTRACKSSTAT
+          CANNUMBEROFTRACKSMOV-VAL
+          CANNUMBEROFTRACKSMOV
+          CANTDSCANCOUNTER-VAL
+          CANTDSCANCOUNTER
+          CANFOUNDTARGET-VAL
+          CANFOUNDTARGET
+          CANBLOCKAGETD-VAL
+          CANBLOCKAGETD
+))

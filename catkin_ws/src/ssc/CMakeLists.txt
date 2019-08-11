@@ -14,6 +14,10 @@ find_package(catkin REQUIRED COMPONENTS
   #------------------------- additional package
   automotive_navigation_msgs
   automotive_platform_msgs
+  pacmod_msgs
+  autoware_msgs
+  jsk_recognition_msgs
+  jsk_footstep_msgs
 )
 
 ## System dependencies are found with CMake's conventions

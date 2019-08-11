@@ -1,0 +1,8 @@
+prefix=/home/kratos/OFRN/catkin_ws/devel
+
+Name: kartech_linear_actuator_msgs
+Description: Description of kartech_linear_actuator_msgs
+Version: 2.3.1
+Cflags: -I/home/kratos/OFRN/catkin_ws/devel/include
+Libs: -L/home/kratos/OFRN/catkin_ws/devel/lib 
+Requires: std_msgs message_runtime

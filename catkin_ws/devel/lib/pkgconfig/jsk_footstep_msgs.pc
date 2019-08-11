@@ -1,0 +1,8 @@
+prefix=/home/kratos/OFRN/catkin_ws/devel
+
+Name: jsk_footstep_msgs
+Description: Description of jsk_footstep_msgs
+Version: 4.3.1
+Cflags: -I/home/kratos/OFRN/catkin_ws/devel/include
+Libs: -L/home/kratos/OFRN/catkin_ws/devel/lib 
+Requires: geometry_msgs actionlib_msgs message_runtime
