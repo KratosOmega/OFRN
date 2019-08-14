@@ -89,17 +89,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -133,6 +122,17 @@ install/local/fast: install/local
 
 .PHONY : install/local/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/kratos/OFRN/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kratos/OFRN/catkin_ws/build/CMakeFiles /home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/progress.marks
@@ -164,21 +164,6 @@ preinstall/fast:
 depend:
 	cd /home/kratos/OFRN/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-# Convenience name for target.
-ssc/CMakeFiles/ssc_interface_node.dir/rule:
-	cd /home/kratos/OFRN/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ssc/CMakeFiles/ssc_interface_node.dir/rule
-.PHONY : ssc/CMakeFiles/ssc_interface_node.dir/rule
-
-# Convenience name for target.
-ssc_interface_node: ssc/CMakeFiles/ssc_interface_node.dir/rule
-
-.PHONY : ssc_interface_node
-
-# fast build rule for target.
-ssc_interface_node/fast:
-	cd /home/kratos/OFRN/catkin_ws/build && $(MAKE) -f ssc/CMakeFiles/ssc_interface_node.dir/build.make ssc/CMakeFiles/ssc_interface_node.dir/build
-.PHONY : ssc_interface_node/fast
 
 # Convenience name for target.
 ssc/CMakeFiles/ssc_interface.dir/rule:
@@ -228,7 +213,7 @@ src/ssc_interface_node.o: src/ssc_interface_node.cpp.o
 
 # target to build an object file
 src/ssc_interface_node.cpp.o:
-	cd /home/kratos/OFRN/catkin_ws/build && $(MAKE) -f ssc/CMakeFiles/ssc_interface_node.dir/build.make ssc/CMakeFiles/ssc_interface_node.dir/src/ssc_interface_node.cpp.o
+	cd /home/kratos/OFRN/catkin_ws/build && $(MAKE) -f ssc/CMakeFiles/ssc_interface.dir/build.make ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o
 .PHONY : src/ssc_interface_node.cpp.o
 
 src/ssc_interface_node.i: src/ssc_interface_node.cpp.i
@@ -237,7 +222,7 @@ src/ssc_interface_node.i: src/ssc_interface_node.cpp.i
 
 # target to preprocess a source file
 src/ssc_interface_node.cpp.i:
-	cd /home/kratos/OFRN/catkin_ws/build && $(MAKE) -f ssc/CMakeFiles/ssc_interface_node.dir/build.make ssc/CMakeFiles/ssc_interface_node.dir/src/ssc_interface_node.cpp.i
+	cd /home/kratos/OFRN/catkin_ws/build && $(MAKE) -f ssc/CMakeFiles/ssc_interface.dir/build.make ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.i
 .PHONY : src/ssc_interface_node.cpp.i
 
 src/ssc_interface_node.s: src/ssc_interface_node.cpp.s
@@ -246,7 +231,7 @@ src/ssc_interface_node.s: src/ssc_interface_node.cpp.s
 
 # target to generate assembly for a file
 src/ssc_interface_node.cpp.s:
-	cd /home/kratos/OFRN/catkin_ws/build && $(MAKE) -f ssc/CMakeFiles/ssc_interface_node.dir/build.make ssc/CMakeFiles/ssc_interface_node.dir/src/ssc_interface_node.cpp.s
+	cd /home/kratos/OFRN/catkin_ws/build && $(MAKE) -f ssc/CMakeFiles/ssc_interface.dir/build.make ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.s
 .PHONY : src/ssc_interface_node.cpp.s
 
 # Help Target
@@ -258,12 +243,11 @@ help:
 	@echo "... list_install_components"
 	@echo "... install"
 	@echo "... rebuild_cache"
-	@echo "... test"
 	@echo "... edit_cache"
-	@echo "... ssc_interface_node"
 	@echo "... ssc_interface"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... test"
 	@echo "... src/ssc_interface.o"
 	@echo "... src/ssc_interface.i"
 	@echo "... src/ssc_interface.s"

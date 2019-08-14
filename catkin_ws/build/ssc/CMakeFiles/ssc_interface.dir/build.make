@@ -57,9 +57,33 @@ include ssc/CMakeFiles/ssc_interface.dir/progress.make
 # Include the compile flags for this target's objects.
 include ssc/CMakeFiles/ssc_interface.dir/flags.make
 
+ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o: ssc/CMakeFiles/ssc_interface.dir/flags.make
+ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o: /home/kratos/OFRN/catkin_ws/src/ssc/src/ssc_interface_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kratos/OFRN/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o"
+	cd /home/kratos/OFRN/catkin_ws/build/ssc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o -c /home/kratos/OFRN/catkin_ws/src/ssc/src/ssc_interface_node.cpp
+
+ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.i"
+	cd /home/kratos/OFRN/catkin_ws/build/ssc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kratos/OFRN/catkin_ws/src/ssc/src/ssc_interface_node.cpp > CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.i
+
+ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.s"
+	cd /home/kratos/OFRN/catkin_ws/build/ssc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kratos/OFRN/catkin_ws/src/ssc/src/ssc_interface_node.cpp -o CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.s
+
+ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o.requires:
+
+.PHONY : ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o.requires
+
+ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o.provides: ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o.requires
+	$(MAKE) -f ssc/CMakeFiles/ssc_interface.dir/build.make ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o.provides.build
+.PHONY : ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o.provides
+
+ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o.provides.build: ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o
+
+
 ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o: ssc/CMakeFiles/ssc_interface.dir/flags.make
 ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o: /home/kratos/OFRN/catkin_ws/src/ssc/src/ssc_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kratos/OFRN/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kratos/OFRN/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o"
 	cd /home/kratos/OFRN/catkin_ws/build/ssc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o -c /home/kratos/OFRN/catkin_ws/src/ssc/src/ssc_interface.cpp
 
 ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.i: cmake_force
@@ -83,22 +107,25 @@ ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o.provides.build: ssc/CMa
 
 # Object files for target ssc_interface
 ssc_interface_OBJECTS = \
+"CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o" \
 "CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o"
 
 # External object files for target ssc_interface
 ssc_interface_EXTERNAL_OBJECTS =
 
+/home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: ssc/CMakeFiles/ssc_interface.dir/build.make
+/home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/libmessage_filters.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/libroscpp.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/libxmlrpcpp.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/librosconsole.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/libxmlrpcpp.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/libroscpp_serialization.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/librostime.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /opt/ros/kinetic/lib/libcpp_common.so
@@ -110,7 +137,7 @@ ssc_interface_EXTERNAL_OBJECTS =
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface: ssc/CMakeFiles/ssc_interface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kratos/OFRN/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kratos/OFRN/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/kratos/OFRN/catkin_ws/devel/lib/ssc/ssc_interface"
 	cd /home/kratos/OFRN/catkin_ws/build/ssc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ssc_interface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -118,6 +145,7 @@ ssc/CMakeFiles/ssc_interface.dir/build: /home/kratos/OFRN/catkin_ws/devel/lib/ss
 
 .PHONY : ssc/CMakeFiles/ssc_interface.dir/build
 
+ssc/CMakeFiles/ssc_interface.dir/requires: ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o.requires
 ssc/CMakeFiles/ssc_interface.dir/requires: ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o.requires
 
 .PHONY : ssc/CMakeFiles/ssc_interface.dir/requires

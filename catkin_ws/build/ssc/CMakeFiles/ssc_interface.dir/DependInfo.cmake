@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kratos/OFRN/catkin_ws/src/ssc/src/ssc_interface.cpp" "/home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o"
+  "/home/kratos/OFRN/catkin_ws/src/ssc/src/ssc_interface_node.cpp" "/home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

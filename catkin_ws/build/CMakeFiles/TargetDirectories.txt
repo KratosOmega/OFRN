@@ -448,9 +448,8 @@
 /home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/list_install_components.dir
 /home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/install.dir
 /home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/rebuild_cache.dir
-/home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/test.dir
 /home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/edit_cache.dir
-/home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/ssc_interface_node.dir
 /home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/ssc_interface.dir
 /home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/install/strip.dir
 /home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/install/local.dir
+/home/kratos/OFRN/catkin_ws/build/ssc/CMakeFiles/test.dir

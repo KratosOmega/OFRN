@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/kratos/OFRN/catkin_ws/build"
-export PYTHONPATH="/home/kratos/OFRN/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"

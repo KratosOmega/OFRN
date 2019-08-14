@@ -4885,19 +4885,6 @@ _autoware_msgs_generate_messages_check_deps_CloudCluster/fast:
 .PHONY : _autoware_msgs_generate_messages_check_deps_CloudCluster/fast
 
 #=============================================================================
-# Target rules for targets named ssc_interface_node
-
-# Build rule for target.
-ssc_interface_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ssc_interface_node
-.PHONY : ssc_interface_node
-
-# fast build rule for target.
-ssc_interface_node/fast:
-	$(MAKE) -f ssc/CMakeFiles/ssc_interface_node.dir/build.make ssc/CMakeFiles/ssc_interface_node.dir/build
-.PHONY : ssc_interface_node/fast
-
-#=============================================================================
 # Target rules for targets named ssc_interface
 
 # Build rule for target.
@@ -5286,7 +5273,6 @@ help:
 	@echo "... _autoware_msgs_generate_messages_check_deps_SyncTimeDiff"
 	@echo "... _autoware_msgs_generate_messages_check_deps_ObjLabel"
 	@echo "... _autoware_msgs_generate_messages_check_deps_CloudCluster"
-	@echo "... ssc_interface_node"
 	@echo "... ssc_interface"
 .PHONY : help
 

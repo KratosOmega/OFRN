@@ -295,6 +295,9 @@ automotive_platform_msgs_DIR:PATH=/home/kratos/OFRN/catkin_ws/devel/share/automo
 //Value Computed by CMake
 automotive_platform_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/automotive_platform_msgs
 
+//The directory containing a CMake configuration file for autoware_build_flags.
+autoware_build_flags_DIR:PATH=autoware_build_flags_DIR-NOTFOUND
+
 //Value Computed by CMake
 autoware_can_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build/autoware_can_msgs
 
@@ -462,7 +465,10 @@ kartech_linear_actuator_msgs_BINARY_DIR:STATIC=/home/kratos/OFRN/catkin_ws/build
 kartech_linear_actuator_msgs_SOURCE_DIR:STATIC=/home/kratos/OFRN/catkin_ws/src/kartech_linear_actuator_msgs
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libmessage_filters.so
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
 
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake

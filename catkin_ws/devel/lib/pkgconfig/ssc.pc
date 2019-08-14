@@ -5,4 +5,4 @@ Description: Description of ssc
 Version: 0.0.0
 Cflags: 
 Libs: -L/home/kratos/OFRN/catkin_ws/devel/lib 
-Requires: 
+Requires: roscpp std_msgs automotive_platform_msgs automotive_navigation_msgs pacmod_msgs autoware_msgs

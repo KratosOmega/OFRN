@@ -13541,13 +13541,11 @@ clean: autoware_msgs/CMakeFiles/_autoware_msgs_generate_messages_check_deps_Clou
 # Directory level rules for directory ssc
 
 # Convenience name for "all" pass in the directory.
-ssc/all: ssc/CMakeFiles/ssc_interface_node.dir/all
 ssc/all: ssc/CMakeFiles/ssc_interface.dir/all
 
 .PHONY : ssc/all
 
 # Convenience name for "clean" pass in the directory.
-ssc/clean: ssc/CMakeFiles/ssc_interface_node.dir/clean
 ssc/clean: ssc/CMakeFiles/ssc_interface.dir/clean
 
 .PHONY : ssc/clean
@@ -13556,107 +13554,6 @@ ssc/clean: ssc/CMakeFiles/ssc_interface.dir/clean
 ssc/preinstall:
 
 .PHONY : ssc/preinstall
-
-#=============================================================================
-# Target rules for target ssc/CMakeFiles/ssc_interface_node.dir
-
-# All Build rule for target.
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/automotive_platform_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/automotive_platform_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/automotive_platform_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/automotive_platform_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_platform_msgs/CMakeFiles/automotive_platform_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/automotive_navigation_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/automotive_navigation_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/automotive_navigation_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/automotive_navigation_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/automotive_navigation_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: automotive_navigation_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/jsk_footstep_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/jsk_footstep_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/jsk_footstep_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/jsk_footstep_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/jsk_footstep_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_footstep_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: pacmod_msgs/CMakeFiles/pacmod_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: pacmod_msgs/CMakeFiles/pacmod_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: pacmod_msgs/CMakeFiles/pacmod_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: pacmod_msgs/CMakeFiles/pacmod_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: pacmod_msgs/CMakeFiles/pacmod_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/jsk_recognition_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/jsk_recognition_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/jsk_recognition_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/jsk_recognition_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/pcl_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/jsk_recognition_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: jsk_recognition_msgs/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: autoware_msgs/CMakeFiles/autoware_msgs_generate_messages_py.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: autoware_msgs/CMakeFiles/autoware_msgs_generate_messages_nodejs.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: autoware_msgs/CMakeFiles/autoware_msgs_generate_messages_lisp.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: autoware_msgs/CMakeFiles/autoware_msgs_generate_messages_eus.dir/all
-ssc/CMakeFiles/ssc_interface_node.dir/all: autoware_msgs/CMakeFiles/autoware_msgs_generate_messages_cpp.dir/all
-	$(MAKE) -f ssc/CMakeFiles/ssc_interface_node.dir/build.make ssc/CMakeFiles/ssc_interface_node.dir/depend
-	$(MAKE) -f ssc/CMakeFiles/ssc_interface_node.dir/build.make ssc/CMakeFiles/ssc_interface_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kratos/OFRN/catkin_ws/build/CMakeFiles --progress-num= "Built target ssc_interface_node"
-.PHONY : ssc/CMakeFiles/ssc_interface_node.dir/all
-
-# Include target in all.
-all: ssc/CMakeFiles/ssc_interface_node.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-ssc/CMakeFiles/ssc_interface_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kratos/OFRN/catkin_ws/build/CMakeFiles 98
-	$(MAKE) -f CMakeFiles/Makefile2 ssc/CMakeFiles/ssc_interface_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kratos/OFRN/catkin_ws/build/CMakeFiles 0
-.PHONY : ssc/CMakeFiles/ssc_interface_node.dir/rule
-
-# Convenience name for target.
-ssc_interface_node: ssc/CMakeFiles/ssc_interface_node.dir/rule
-
-.PHONY : ssc_interface_node
-
-# clean rule for target.
-ssc/CMakeFiles/ssc_interface_node.dir/clean:
-	$(MAKE) -f ssc/CMakeFiles/ssc_interface_node.dir/build.make ssc/CMakeFiles/ssc_interface_node.dir/clean
-.PHONY : ssc/CMakeFiles/ssc_interface_node.dir/clean
-
-# clean rule for target.
-clean: ssc/CMakeFiles/ssc_interface_node.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Target rules for target ssc/CMakeFiles/ssc_interface.dir
