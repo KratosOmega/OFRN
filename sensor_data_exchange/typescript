@@ -1,0 +1,50 @@
+Script started on Tue 10 Sep 2019 02:53:19 PM EDT
+^X^C]0;dev@dev-Nuvo-6108GC: ~/catkin-ws/src/sensor_data_exchange[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws/src/sensor_data_exchange[00m$ cd scripts/
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws/src/sensor_data_exchange/scripts[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws/src/sensor_data_exchange/scripts[00m$ ls
+data_communicate.py  [0m[01;32mredirect.py[0m  [01;32msensor.py[0m
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws/src/sensor_data_exchange/scripts[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws/src/sensor_data_exchange/scripts[00m$ cd
+]0;dev@dev-Nuvo-6108GC: ~[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~[00m$ cd[K[Kcd Autoware/ros/
+]0;dev@dev-Nuvo-6108GC: ~/Autoware/ros[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/Autoware/ros[00m$ ./run
+Process Manager
+[sudo] password for dev: 
+]0;dev@dev-Nuvo-6108GC: ~/Autoware/ros[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/Autoware/ros[00m$ cd
+]0;dev@dev-Nuvo-6108GC: ~[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~[00m$ cd catkin-ws/
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws[00m$ catkin_make
+Base path: /home/dev/catkin-ws
+Source space: /home/dev/catkin-ws/src
+Build space: /home/dev/catkin-ws/build
+Devel space: /home/dev/catkin-ws/devel
+Install space: /home/dev/catkin-ws/install
+[34m####[0m
+[34m#### Running command: [1m"make cmake_check_build_system"[0m[34m in [1m"/home/dev/catkin-ws/build"[0m
+[34m####[0m
+[34m####[0m
+[34m#### Running command: [1m"make -j8 -l8"[0m[34m in [1m"/home/dev/catkin-ws/build"[0m
+[34m####[0m
+[  9%] Built target avt_vimba_camera_gencfg
+[ 33%] Built target mono_camera_node
+[ 57%] Built target stereo_camera_node
+[ 71%] Built target sync_node
+[100%] Built target avt_camera_nodelets
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws[00m$ roscd data_preprocessor/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksensor_data_exchange/
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws/src/sensor_data_exchange[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws/src/sensor_data_exchange[00m$ ls
+CMakeLists.txt  package.xml  [0m[01;34mscripts[0m  [01;34msrc[0m  typescript
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws/src/sensor_data_exchange[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws/src/sensor_data_exchange[00m$ cd scripts/
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws/src/sensor_data_exchange/scripts[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws/src/sensor_data_exchange/scripts[00m$ ls
+[0m[01;32mredirect.py[0m  sensor_data.py  [01;32msensor.py[0m
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws/src/sensor_data_exchange/scripts[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws/src/sensor_data_exchange/scripts[00m$ chmod +x sensor_data.py 
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws/src/sensor_data_exchange/scripts[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws/src/sensor_data_exchange/scripts[00m$ ls
+[0m[01;32mredirect.py[0m  [01;32msensor_data.py[0m  [01;32msensor.py[0m
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws/src/sensor_data_exchange/scripts[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws/src/sensor_data_exchange/scripts[00m$ cd
+]0;dev@dev-Nuvo-6108GC: ~[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~[00m$ cd catkin-ws/
+]0;dev@dev-Nuvo-6108GC: ~/catkin-ws[01;32mdev@dev-Nuvo-6108GC[00m:[01;34m~/catkin-ws[00m$ cd catkin-ws/[Klschmod +x sensor_data.py ls[Kcd scripts/ls[Kroscd sensor_data_exchange/[16Pcatkin_make
+Base path: /home/dev/catkin-ws
+Source space: /home/dev/catkin-ws/src
+Build space: /home/dev/catkin-ws/build
+Devel space: /home/dev/catkin-ws/devel
+Install space: /home/dev/catkin-ws/install
+[34m####[0m
+[34m#### Running command: [1m"make cmake_check_build_system"[0m[34m in [1m"/home/dev/catkin-ws/build"[0m
+[34m####[0m
+[34m####[0m
+[34m#### Running command: [1m"make -j8 -l8"[0m[34m in [1m"/home/dev/catkin-ws/bu
